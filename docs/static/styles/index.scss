@@ -1,0 +1,57 @@
+$primary-color: #72331f;
+$secondary-color: #E9E4D1;
+$error-color: #CB3B1C;
+
+// Body styles
+body {
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Header styles
+h1 {
+  text-align: center;
+  color: $primary-color;
+}
+
+// Paragraph styles
+p {
+  text-align: center;
+  color: $primary-color;
+}
+
+// Image styles
+img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+// Кнопка styles
+button {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+// Посилання styles
+a {
+  text-decoration: none;
+  color: $primary-color;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,85 @@
+/* Variables */
+$primary-color: #72331f;
+$secondary-color: #E9E4D1;
+$error-color: #CB3B1C;
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Вирівнюємо контент по центру горизонтально */
+  align-items: center; /* Вирівнюємо контент по центру вертикально */
+  height: 100vh; /* Забезпечуємо висоту елемента на весь екран */
+  flex-direction: column; /* Встановлюємо вертикальне напрямок вирівнювання */
+}
+
+h1 {
+  color: $primary-color;
+  text-align: center; /* Вирівнюємо заголовок по центру */
+  margin-bottom: 20px; /* Додаємо зазор знизу */
+}
+
+form {
+  width: 300px; /* Фіксована ширина форми */
+  padding: 20px;
+  background-color: $secondary-color;
+  border: 2px solid $primary-color;
+  border-radius: 5px;
+  text-align: center; /* Вирівнюємо елементи форми по центру */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid $primary-color;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: $primary-color;
+  color: $secondary-color;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darken($primary-color, 10%);
+}
+
+.error-message {
+  color: $error-color;
+  margin-bottom: 10px;
+}
+
+/* New styles for center alignment */
+p {
+  text-align: center; /* Вирівнюємо текст по центру */
+  margin-top: 20px; /* Додаємо зазор зверху */
+}
+
+.button {
+  display: inline-block;
+  background-color: $primary-color;
+  color: $secondary-color;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Додаємо для відсутності підкреслення */
+}
+
+.button:hover {
+  background-color: darken($primary-color, 10%);
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+/* Variables */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E9E4D1;
+  color: #72331f;
+}
+
+header {
+  background-color: #72331f;
+  color: #E9E4D1;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* Змінено націлювання вправо */
+  align-items: center;
+}
+header .user-profile {
+  margin-right: 10px; /* Додано відступ справа */
+  position: relative;
+  display: flex; /* Додано властивість flexbox */
+  align-items: center; /* Вирівнювання елементів по вертикалі */
+  /* Стилі для тексту Your Profile */
+}
+header .user-profile a {
+  text-decoration: none;
+  color: #E9E4D1;
+  padding: 5px;
+}
+header .user-profile a:hover {
+  color: white;
+}
+header .user-profile .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #E9E4D1;
+  border: 1px solid #72331f;
+  padding: 10px;
+  z-index: 1000;
+}
+header .user-profile .dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+header .user-profile .dropdown-menu ul li {
+  margin-bottom: 5px;
+}
+header .user-profile .dropdown-menu ul li a {
+  text-decoration: none;
+  color: #72331f;
+}
+header .user-profile .dropdown-menu ul li a:hover {
+  text-decoration: underline;
+}
+header .user-profile:hover .dropdown-menu {
+  display: block;
+}
+header .user-profile .your-profile-text {
+  display: inline-block;
+  white-space: nowrap; /* Забороняє перенесення тексту */
+  margin-right: 5px; /* Додано відступ між словами */
+}
+
+main {
+  padding: 80px;
+}
+main .create-event-btn,
+main .view-user-events-btn,
+main .view-shared-events-btn {
+  margin-bottom: 130px;
+}
+main .create-event-btn a,
+main .view-user-events-btn a,
+main .view-shared-events-btn a {
+  display: block;
+  width: 200px;
+  padding: 15px;
+  background-color: #72331f;
+  color: #E9E4D1;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+main .create-event-btn a:hover,
+main .view-user-events-btn a:hover,
+main .view-shared-events-btn a:hover {
+  background-color: #4a2114;
+}
+
+/* Styles for the image inside the main content */
+main img {
+  position: absolute;
+  top: 70px;
+  left: 400px;
+  width: 700px; /* Встановлює ширину зображення */
+  height: auto; /* Встановлює висоту зображення */
+}
+
+/*# sourceMappingURL=personalCabinet.css.map */

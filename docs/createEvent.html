@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Event</title>
+    <link rel="stylesheet" href="static/styles/createEvent.css">
+</head>
+<body>
+<h1>Create New Event</h1>
+<form action="submit_event.php" method="POST">
+    <label for="event-title">Title:</label>
+    <input type="text" id="event-title" name="event-title" required>
+    <br>
+
+    <label for="event-date">Date:</label>
+    <input type="date" id="event-date" name="event-date" required>
+    <br>
+
+    <label for="event-time">Time:</label>
+    <input type="time" id="event-time" name="event-time" required>
+    <br>
+
+    <label for="event-location">Location:</label>
+    <input type="text" id="event-location" name="event-location" required>
+    <br>
+
+    <label for="event-description">Description:</label>
+    <textarea id="event-description" name="event-description" rows="4" required></textarea>
+    <br>
+
+    <label for="invited-users">Invited Peole:</label>
+    <input type="text" id="invited-users" name="invited-users">
+    <br>
+
+    <div>
+        <a href="personalСabinet.html" class="button">Create Event</a>
+    </div>
+</form>
+</body>
+</html>

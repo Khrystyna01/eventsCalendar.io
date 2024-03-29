@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sign up for Event Calendar">
+    <title>Sign up for Event Calendar</title>
+    <link rel="stylesheet" href="static/styles/signup.css">
+</head>
+<body>
+<h1>Sign up for Event Calendar</h1>
+<form action="registration.php" method="POST">
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <div>
+        <label for="confirmPassword">Confirm password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+    </div>
+    <div>
+        <label for="role">Role:</label>
+        <select id="role" name="role" required>
+            <option value="" selected disabled hidden>Choose Role</option>
+            <option value="Admin">Admin</option>
+            <option value="Regular">Regular</option>
+        </select>
+    </div>
+    <div>
+        <a href="personalСabinet.html" class="button">Ok</a>
+    </div>
+</form>
+</body>
+</html>

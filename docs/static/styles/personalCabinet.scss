@@ -1,0 +1,111 @@
+/* Variables */
+$primary-color: #72331f;
+$secondary-color: #E9E4D1;
+$error-color: #CB3B1C;
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+header {
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* Змінено націлювання вправо */
+  align-items: center;
+
+  .user-profile {
+    margin-right: 10px; /* Додано відступ справа */
+    position: relative;
+    display: flex; /* Додано властивість flexbox */
+    align-items: center; /* Вирівнювання елементів по вертикалі */
+
+    a {
+      text-decoration: none;
+      color: $secondary-color;
+      padding: 5px;
+
+      &:hover {
+        color: lighten($secondary-color, 20%);
+      }
+    }
+
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: $secondary-color;
+      border: 1px solid $primary-color;
+      padding: 10px;
+      z-index: 1000;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+          margin-bottom: 5px;
+
+          a {
+            text-decoration: none;
+            color: $primary-color;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+
+    &:hover .dropdown-menu {
+      display: block;
+    }
+
+    /* Стилі для тексту Your Profile */
+    .your-profile-text {
+      display: inline-block;
+      white-space: nowrap; /* Забороняє перенесення тексту */
+      margin-right: 5px; /* Додано відступ між словами */
+    }
+  }
+}
+
+main {
+  padding: 80px;
+
+  .create-event-btn,
+  .view-user-events-btn,
+  .view-shared-events-btn {
+    margin-bottom: 130px;
+
+    a {
+      display: block;
+      width: 200px;
+      padding: 15px;
+      background-color: $primary-color;
+      color: $secondary-color;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: darken($primary-color, 10%);
+      }
+    }
+  }
+}
+
+/* Styles for the image inside the main content */
+main img {
+  position: absolute;
+  top: 70px;
+  left: 400px;
+  width: 700px; /* Встановлює ширину зображення */
+  height: auto; /* Встановлює висоту зображення */
+}

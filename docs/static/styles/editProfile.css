@@ -1,0 +1,57 @@
+/* Variables */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E9E4D1;
+  color: #72331f;
+}
+
+h1 {
+  color: #72331f;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #E9E4D1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #72331f;
+}
+
+input[type=text],
+input[type=email],
+input[type=date],
+input[type=password] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #72331f;
+  border-radius: 5px;
+}
+
+input[type=submit] {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  color: #72331f;
+  background-color: #E9E4D1;
+  border: 1px solid #72331f;
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+input[type=submit]:hover {
+  background-color: #72331f;
+  color: #E9E4D1;
+}
+
+/*# sourceMappingURL=editProfile.css.map */

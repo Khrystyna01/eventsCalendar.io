@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* Variables */
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E9E4D1;
+  color: #72331f;
+  margin: 0; /* Виправлення відступу від краю сторінки */
+}
+
+h1 {
+  color: #72331f;
+  text-align: center;
+}
+
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #E9E4D1;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #72331f;
+}
+
+input[type=text],
+input[type=date],
+input[type=time],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #72331f;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #72331f;
+  color: #E9E4D1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+  background-color: #4a2114;
+}
+
+/* Optional: Add styles for form validation */
+input:invalid,
+textarea:invalid {
+  border-color: #CB3B1C;
+}
+
+input[type=submit]:disabled {
+  background-color: #c25735;
+  cursor: not-allowed;
+}
+
+.button {
+  display: inline-block;
+  background-color: #72331f;
+  color: #E9E4D1;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Додаємо для відсутності підкреслення */
+}
+
+.button:hover {
+  background-color: #4a2114;
+}
+
+/*# sourceMappingURL=createEvent.css.map */
