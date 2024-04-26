@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Стилі для контейнера з кнопками */
+.btn-container {
+    display: flex;
+    flex-direction: column; /* Розташовує кнопки одну під одною */
+    gap: 10px; /* Відступ між кнопками */
+    width: fit-content; /* Ширина контейнера залежить від вмісту (ширина кнопок) */
+    margin-left: 20px; /* Відступ від лівого краю */
+}
+
+/* Стилі для кнопок */
+button {
+    padding: 8px 12px; /* Зменшення внутрішнього простору кнопок */
+    font-size: 14px; /* Зменшення розміру тексту кнопок */
+    background-color: #333; /* Чорний колір для фону кнопки */
+    color: #fff; /* Білий колір для тексту кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555; /* Зміна кольору фону кнопки при наведенні */
+}
