@@ -1,0 +1,530 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+/*-------------------------------------------------------------------*/
+
+
+img.calendar-image {
+  width: 70%; /* Зменшення ширини до половини */
+  height: auto; /* Автоматичне встановлення висоти для збереження пропорцій */
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E9E4D1;
+  color: #72331f;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #72331f;
+  margin-bottom: 10px; /* Зменшення відстані вниз від заголовка до параграфу */
+
+}
+
+p {
+  text-align: center;
+  color: #72331f;
+}
+
+button {
+  background-color: #72331f;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5f291c;
+}
+
+a {
+  text-decoration: none;
+  color: #72331f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрування по горизонталі */
+  justify-content: center; /* Центрування по вертикалі */
+  height: 100vh; /* Зробити контейнер на весь екран */
+}
+
+.buttons-container {
+  margin-bottom: 20px; /* Додатковий відступ між кнопками та зображенням */
+}
+
+.image-container {
+  text-align: center; /* Центрування зображення по центру горизонталі */
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 400px; /* Збільшення ширини форми */
+  padding: 20px; /* Додавання внутрішнього відступу */
+  border: 1px solid #ccc; /* Додавання рамки */
+  border-radius: 5px; /* Закруглення кутів */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь */
+  background-color: #fff; /* Фоновий колір */
+}
+
+
+
+
+/* SignUpPage2.css */
+
+/* Global Styles */
+body2 {
+  font-family: Arial, sans-serif;
+  background-color: #E9E4D1;
+  color: #72331f;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Вирівнюємо контент по центру горизонтально */
+  align-items: center; /* Вирівнюємо контент по центру вертикально */
+  height: 100vh; /* Забезпечуємо висоту елемента на весь екран */
+}
+
+h1 {
+  color: #72331f;
+  text-align: center; /* Вирівнюємо заголовок по центру */
+  margin-bottom: 20px; /* Додаємо зазор знизу */
+}
+
+.form-container2 {
+  display: flex;
+  justify-content: center; /* Вирівнюємо контейнер по центру горизонтально */
+  align-items: center; /* Вирівнюємо контейнер по центру вертикально */
+  height: 100vh; /* Забезпечуємо висоту елемента на весь екран */
+  flex-direction: column; /* Встановлюємо вертикальний напрямок вирівнювання */
+}
+
+.form2 {
+  width: 300px; /* Фіксована ширина форми */
+  padding: 20px;
+  background-color: #E9E4D1;
+  border: 2px solid #72331f;
+  border-radius: 5px;
+  text-align: center; /* Вирівнюємо елементи форми по центру */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #72331f;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button2 {
+  display: inline-block;
+  background-color: #72331f;
+  color: #E9E4D1;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Додаємо для відсутності підкреслення */
+}
+
+.button2:hover {
+  background-color: #72331f;
+}
+
+.error-message2 {
+  color: #CB3B1C;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* SignInPage.css */
+
+body3 {
+  font-family: Arial, sans-serif;
+  background-color: #E9E4D1;
+  color: #72331f;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Вирівнюємо контент по центру горизонтально */
+  align-items: center; /* Вирівнюємо контент по центру вертикально */
+  height: 100vh; /* Забезпечуємо висоту елемента на весь екран */
+  flex-direction: column; /* Встановлюємо вертикальний напрямок вирівнювання */
+}
+
+h13 {
+  color: #72331f;
+  text-align: center; /* Вирівнюємо заголовок по центру */
+  margin-bottom: 20px; /* Додаємо зазор знизу */
+}
+
+.form-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form3 {
+  width: 300px; /* Фіксована ширина форми */
+  padding: 20px;
+  background-color: #E9E4D1;
+  border: 2px solid #72331f;
+  border-radius: 5px;
+  text-align: center; /* Вирівнюємо елементи форми по центру */
+  margin: 0 auto; /* Автоматичне вирівнювання по центру */
+}
+
+input3[type="email"],
+input3[type="password"],
+select3 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #72331f;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.button3 {
+  display: inline-block;
+  background-color: #72331f;
+  color: #E9E4D1;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none; /* Додаємо для відсутності підкреслення */
+}
+
+.button3:hover {
+  background-color: #5f291c;
+}
+
+.error-message3 {
+  color: #CB3B1C;
+  margin-bottom: 10px;
+}
+
+
+
+:root {
+  --primary-color: #72331f;
+  --secondary-color: #E9E4D1;
+  --error-color: #CB3B1C;
+}
+
+/* Body styles */
+body4 {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* User info container styles */
+.user-info-container4 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  text-align: center;
+  margin: auto; /* Додайте цей стиль для центрування контейнера */
+}
+
+
+
+/* UserInfo4.css */
+
+.edit-button {
+  background-color: #5f291c; /* Зелений колір для кнопки Edit */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: #5f291c; /* Червоний колір для кнопки Delete */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.button5-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+.top-bar6 {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-profile6 {
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-profile6 a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  padding: 5px;
+}
+
+.user-profile6 a:hover {
+  color: var(--secondary-color);
+}
+
+.dropdown-menu6 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.dropdown-menu6 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dropdown-menu6 li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu6 li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 5px;
+  transition: background-color 0.3s ease; /* Додано плавний перехід для зміни кольору фону */
+}
+
+.dropdown-menu6 li a:hover {
+  text-decoration: underline;
+  background-color: rgba(113, 51, 31, 0.2); /* Змінено фон при наведенні миші, щоб створити ефект виділення */
+}
+
+.user-profile6:hover .dropdown-menu6 {
+  display: block;
+}
+
+
+
+
+.image-container6 {
+  order: 2;
+  margin-top: 40px;
+  display: flex;
+  margin-left: 540px;
+}
+
+.calendar-image6 {
+  width: 700px; /* Встановлюємо ширину зображення */
+  height: auto; /* Автоматично обчислюємо висоту */
+}
+
+.events-container6 {
+  width: calc(100% - 900px); /* Розраховуємо ширину для контейнера подій */
+   margin-top: -540px; /* Додавання великого відступу зверху */
+}
+
+
+
+.event-item-container6 {
+  border: 1px solid var(--primary-color); /* Рамка для контейнера івенту */
+  padding: 10px; /* Відступи всередині контейнера */
+  margin: 10px 0; /* Зовнішні відступи контейнера */
+  margin-left: 20px; /* Відступ зліва */
+}
+
+
+.events-title {
+  margin-left: 20px;
+}
+
+.actions-container6 {
+  display: flex;
+  flex-direction: column; /* Розташування елементів в стовпчик */
+  margin-left: 90px ;
+}
+
+.actions-container6 .action-btn {
+  width: 200px; /* Ширина кнопки */
+  height: 40px; /* Висота кнопки */
+  margin-bottom: 10px; /* Відступ між кнопками */}
+
+
+
+
+
+
+
+
+.form-container7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.create-event-heading7 {
+  margin-bottom: 20px;
+}
+
+.create-event-form7 {
+  width: 300px;
+}
+
+
+.create-event-input7 {
+  width: 300px;
+  padding: 10px; /* Змінено на 10px */
+  margin-top: 10px;
+}
+
+.create-event-button7 {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.success-message7 {
+  color: green;
+}
+
+
+
+.delete-form-container{
+  width: 400px;
+  margin-top: 30px;
+}
+
+
+
+
+
